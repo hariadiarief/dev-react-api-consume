@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Segment } from "semantic-ui-react";
+import { Header, Segment, Image } from "semantic-ui-react";
 
 import Page from "./Page";
 
@@ -9,9 +9,16 @@ const Home = () => {
       <Page>
         <Segment>
           <Header as="h1" textAlign="center">
-            Doogether Front-End Task
+            Front-End Task
             <Header.Subheader>API Consume</Header.Subheader>
           </Header>
+          <Image
+            src="/image/databaselogo.png"
+            className="rotate-center"
+            size="small"
+            centered
+          />
+          <Image />
         </Segment>
       </Page>
     </div>
